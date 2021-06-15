@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "d020e1de-7043-4144-81f2-b1efed086bb5",
+		"name": "autofi-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload providers CSV",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/Users/omargarcia/Desktop/csv-cars-providers.csv"
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3030/api/v1/providers/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api",
+						"v1",
+						"providers",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
