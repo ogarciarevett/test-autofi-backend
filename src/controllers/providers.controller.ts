@@ -7,7 +7,6 @@ import * as fs from 'fs';
 import { Logger } from '../utils/logger';
 import { parseObjectKeysToCamelCase } from '../utils/parser';
 import { IUploadRowInterface } from '../interfaces/IUploadRow.interface';
-import { UploadedFile } from 'express-fileupload';
 
 export class ProvidersController {
     private multer;
